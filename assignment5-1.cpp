@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+	int n;
+	printf("Nhap so n : ");
+	scanf("%d",&n);
+	printf("Cac so chan nho hon n la: \n");
+	for(int i = 0 ; i < n ; i++){
+		if(i % 2 == 0 ){
+			printf("%d\n",i);
+		}
+	}	
+}
